@@ -18,7 +18,7 @@ require	Exporter;
 our @ISA		=	qw(Exporter);
 our @EXPORT		=	qw(name2verse);
 our @EXPORT_OK		=	qw( );
-our $VERSION		= 	'0.03';
+our $VERSION		= 	'0.04';
 
 our ($SEP);
 
@@ -137,8 +137,8 @@ Lingua::EN::Namegame - Creates a "Name-Game" verse from a name (or word)
 
 =head1 VERSION
 
-This document describes version 0.02 of Lingua::EN::Namegame,
-released December 29, 2002.
+This document describes version 0.04 of Lingua::EN::Namegame,
+released January 01, 2003.
 
 =head1 SYNOPSIS
 
@@ -176,8 +176,6 @@ B<name2verse>
 is a subroutine that generates a rhyming verse based on a name (or word),
 in accordance with the L<rhyming algorithm> documented in the lyrics of the
 famous 1960's song B<The Name Game>, by I<Shirley Ellis>.
-
-
 
 =head2 Background
 
@@ -313,27 +311,27 @@ name2verse()
 
 B<name2verse.pl>, B<name2verse_nonprofane.pl>
 
-=head1 AUTHORS
+=head1 AUTHOR
 
-=for man
+=for roff
 .nf
 \fBTim Maher\fP
-\fICEO\fP, \fBConsultix\fP
+\fIConsultix\fP
 yumpy@cpan.org
 http://www.teachmeperl.com
 .fi
 
 =for html
 <B>Tim Maher</B><BR>
-<I>CEO</I>, <B>Consultix</B><BR>
+<I>Consultix</I><BR>
 yumpy@cpan.org<BR>
 <A HREF="http://www.teachmeperl.com">http://www.teachmeperl.com</A><BR>
 
 =for text
-Tim Maher
-CEO, Consultix
-yumpy@cpan.org
-http://www.teachmeperl.com
+	Tim Maher
+	Consultix
+	yumpy@cpan.org
+	http://www.teachmeperl.com
 
 =head1 SEE ALSO
 
@@ -343,7 +341,7 @@ L<http://www.geocities.com/SunsetStrip/Palladium/1306/shirley.htm>
 
 =for html Copyright &copy; 2002, Timothy F. Maher.  All rights reserved. 
 
-=for man Copyright \(co 2002, Timothy F. Maher.  All rights reserved. 
+=for roff Copyright \(co 2002, Timothy F. Maher.  All rights reserved. 
 
 =for text Copyright (c) 2002, Timothy F. Maher.  All rights reserved. 
 

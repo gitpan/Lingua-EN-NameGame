@@ -8,8 +8,8 @@ NAME
 
 VERSION
 
-    This document describes version 0.02 of Lingua::EN::Namegame,
-    released December 29, 2002.
+    This document describes version 0.04 of Lingua::EN::Namegame,
+    released January 01, 2003.
 
 SYNOPSIS
 
@@ -57,13 +57,12 @@ To install this module type the following:
 
 DEPENDENCIES
 
-  Regexp::Common
+  None for the module itself, but one sample script provided requires Regexp::Common
 
 COPYRIGHT AND LICENCE
 
-    Copyright (c) 2002, Timothy F. Maher.  All rights reserved.
+    Copyright (c) 2002-2003, Timothy F. Maher.  All rights reserved.
 
     This module is free software; you can redistribute it and/or
     modify it under the same terms as Perl itself.
-
 

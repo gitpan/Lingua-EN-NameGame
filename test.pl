@@ -45,7 +45,7 @@ BEGIN {
 	);
 
 	# I don't want to require this Module as a dependency, but
-	# it it's present, I'll run the tests in the script that uses it
+	# if it's present, I'll run the tests in the script that uses it
 
 	eval {
 		require Regexp::Common

@@ -16,3 +16,8 @@ Revision history for Perl extension Lingua::EN::Namegame.
 	- made tests of name2verse_nonprofane.pl conditional on presence of
 	  Regexp::Common
 
+0.04  Wed Jan  1 10:27:33 PST 2003
+	- fixed typo in comment in test.pl
+	- one last try to get =for html sections processed correctly after upload
+
+
