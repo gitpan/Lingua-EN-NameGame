@@ -18,7 +18,7 @@ require	Exporter;
 our @ISA		=	qw(Exporter);
 our @EXPORT		=	qw(name2verse);
 our @EXPORT_OK		=	qw( );
-our $VERSION		= 	'0.02';
+our $VERSION		= 	'0.03';
 
 our ($SEP);
 
@@ -138,7 +138,7 @@ Lingua::EN::Namegame - Creates a "Name-Game" verse from a name (or word)
 =head1 VERSION
 
 This document describes version 0.02 of Lingua::EN::Namegame,
-released December 28, 2002.
+released December 29, 2002.
 
 =head1 SYNOPSIS
 
@@ -174,7 +174,7 @@ I<Or, for extra policital correctness>
 
 B<name2verse>
 is a subroutine that generates a rhyming verse based on a name (or word),
-in accordance with the L</rhyming algorithm> documented in the lyrics of the
+in accordance with the L<rhyming algorithm> documented in the lyrics of the
 famous 1960's song B<The Name Game>, by I<Shirley Ellis>.
 
 
@@ -289,11 +289,15 @@ say "Bo" and then Name without the initial B:
 
 =item 3. B<F>-names:
 
-instead of "Banana Fanna Fo" Fred -- "Banana Fanna" B<Fo-red>
+instead of "Banana Fanna Fo" Fred:
+
+	-> "Banana Fanna" B<Fo-red>
 
 =item 4. B<M>-names:
 
-instead of "Fee Fi Mo" Marsha -- "Fee Fi" B<Mo-arsha>
+instead of "Fee Fi Mo" Marsha:
+
+	-> "Fee Fi" B<Mo-arsha>
 
 =back
 
@@ -309,9 +313,10 @@ name2verse()
 
 B<name2verse.pl>, B<name2verse_nonprofane.pl>
 
-=head1 AUTHOR
+=head1 AUTHORS
 
-=for roff .nf
+=for man
+.nf
 \fBTim Maher\fP
 \fICEO\fP, \fBConsultix\fP
 yumpy@cpan.org
@@ -338,7 +343,7 @@ L<http://www.geocities.com/SunsetStrip/Palladium/1306/shirley.htm>
 
 =for html Copyright &copy; 2002, Timothy F. Maher.  All rights reserved. 
 
-=for roff Copyright \(co 2002, Timothy F. Maher.  All rights reserved. 
+=for man Copyright \(co 2002, Timothy F. Maher.  All rights reserved. 
 
 =for text Copyright (c) 2002, Timothy F. Maher.  All rights reserved. 
 

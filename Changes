@@ -5,6 +5,14 @@ Revision history for Perl extension Lingua::EN::Namegame.
 		-XA -n Lingua::EN::NameGame
 
 0.02  Sun Dec 29 10:08:43 PST 2002
-	- second version; cleaning up some typos; expecially NameGame -> Namegame
+	- second version; cleaning up typos; expecially NameGame -> Namegame
 
+0.03  Mon Dec 30 10:14:48 PST 2002
+	- reformatted some POD documentation for better HTML appearance
+	- modified POD documentation slightly in attempt to determine why
+	  "=for html" sections for AUTHOR and COPYRIGHT are coming out empty
+	- removed explicit dependency on Regexp::Common
+		(name2verse_nonprofane.pl needs it, but not the Module)
+	- made tests of name2verse_nonprofane.pl conditional on presence of
+	  Regexp::Common
 
