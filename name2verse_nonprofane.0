@@ -4,7 +4,7 @@
 # POB 70563, Seattle WA 98107 USA tim@consultix-inc.com #+
 #  Copyright 1997-2001, Tim Maher. All Rights Reserved  #+
 #########################################################+
-# name2verse2: Uses NameGame.pm to make verse from name
+# name2verse2: Uses Namegame.pm to make verse from name
 # BUT: censors ones with naughty words!
 
 use strict;
@@ -13,7 +13,7 @@ use warnings;
 # $::DEBUG=1;
 
 # This module exports the "name2verse" subroutine
-use Lingua::EN::NameGame;	# must be locatable through PERL5LIB var
+use Lingua::EN::Namegame;	# must be locatable through PERL5LIB var
 		# e.g., at shell level: PERL5LIB=~fred/modules
 
 use Regexp::Common 'RE_profanity';

@@ -1,7 +1,7 @@
 Changes
 MANIFEST
 Makefile.PL
-NameGame.pm
+Namegame.pm
 README
 name2verse.0
 name2verse.pl.PL

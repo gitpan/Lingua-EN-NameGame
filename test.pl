@@ -50,7 +50,7 @@ BEGIN {
 }
 
 use Test::More tests => ( (keys %verses) *2 + 3);
-use Lingua::EN::NameGame;
+use Lingua::EN::Namegame;
 
 ok(1, 'MODULE LOADED SUCCESSFULLY'); # If we made it this far, we're ok.
 
@@ -74,8 +74,8 @@ foreach $name (sort keys %verses) {
 
 # Finally, try the profanity filtering script, first with clean name, then dirty name
 $name='Marsha';
-ok (  `./name2verse_nonprofane.pl '$name'` =~ /$verses{$name}/, "$name via PC-script") ;
+ok (  `./name2verse_nonprofane.pl '$name'` =~ /$verses{$name}/, "$name via Profanity-filtering script") ;
 
 $name='Chuck';	 # profanity-ogenic name
-ok (  `./name2verse_nonprofane.pl '$name'` =~ /profane/, "$name via PC-script") ;
+ok (  `./name2verse_nonprofane.pl '$name'` =~ /profane/, "$name via Profanity-filtering script") ;
 

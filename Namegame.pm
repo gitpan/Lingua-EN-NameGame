@@ -1,4 +1,4 @@
-# NameGame.pm module
+# Namegame.pm module
 #########################################################+
 #      From the CONSULTIX "Perl Programming" class      #+
 # POB 70563, Seattle WA 98107 USA tim@consultix-inc.com #+
@@ -6,7 +6,7 @@
 #########################################################+
 # Tim Maher, tim@teachmeperl.com
 
-package	Lingua::EN::NameGame;
+package	Lingua::EN::Namegame;
 
 use 5.006;	# 5.6.0 needed for "our" keyword
 use strict;
@@ -18,7 +18,7 @@ require	Exporter;
 our @ISA		=	qw(Exporter);
 our @EXPORT		=	qw(name2verse);
 our @EXPORT_OK		=	qw( );
-our $VERSION		= 	'0.01';
+our $VERSION		= 	'0.02';
 
 our ($SEP);
 
@@ -133,16 +133,16 @@ __DATA__
 
 =head1 NAME
 
-Lingua::EN::NameGame - Creates a "Name-Game" verse from a name (or word)
+Lingua::EN::Namegame - Creates a "Name-Game" verse from a name (or word)
 
 =head1 VERSION
 
-This document describes the first version of Lingua::EN::NameGame,
-version number 0.01, released December 28, 2002.
+This document describes version 0.02 of Lingua::EN::Namegame,
+released December 28, 2002.
 
 =head1 SYNOPSIS
 
-	use Lingua::EN::NameGame;
+	use Lingua::EN::Namegame;
 
 	$verse = name2verse ('Marsha');
 
@@ -150,7 +150,7 @@ version number 0.01, released December 28, 2002.
 
 I<Or, more simply, at your OS command prompt>:
 
-	name2verse  Marsha		# script provided with module
+	name2verse.pl  Marsha		# script provided with module
 
 =head2 Output
 
@@ -162,7 +162,7 @@ I<Or, more simply, at your OS command prompt>:
 
 I<Or, for extra policital correctness>
 
-	name2verse_nonprofane  Bart	# script provided with module
+	name2verse_nonprofane.pl  Bart	# script provided with module
 
 =head2 Output
 
@@ -217,13 +217,13 @@ Hey, that's not a bad word itself; let's try it!
 		    Fee Fi Mo Moppycock
 		      POPPYCOCK!
 
-Which raises the issue that some actual human names, such as B<Bart> and especially B<Chuck>,
+Which reminds me that some actual human names, such as B<Bart> and especially B<Chuck>,
 give rise to B<really rousingly ribald rhymes>, which has often led to embarassing outbursts of
 I<blushing and snickering> in
 our
 Perl training classes.  One solution is to use the 
 supplied
-B<name2verse_nonprofane> script to identify and filter-out verses that are
+B<name2verse_nonprofane.pl> script to identify and filter-out verses that are
 judged to contain profane words.
 It does this through use of the "profanity matching regex" of I<Damian Conway's> B<Regexp::Common> module.
 
@@ -307,7 +307,7 @@ name2verse()
 
 =head1 SCRIPTS
 
-B<name2verse>, B<name2verse_nonprofane>
+B<name2verse.pl>, B<name2verse_nonprofane.pl>
 
 =head1 AUTHOR
 

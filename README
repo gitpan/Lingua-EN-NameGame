@@ -1,19 +1,19 @@
-Lingua/EN/NameGame version 0.01
+Lingua/EN/Namegame version 0.02
 ===============================
 
 NAME
 
-    Lingua::EN::NameGame - Creates a "Name-Game" verse from a name (or
+    Lingua::EN::Namegame - Creates a "Name-Game" verse from a name (or
     word)
 
 VERSION
 
-    This document describes version 0.01 of Lingua::EN::NameGame,
-    released December 28, 2002.
+    This document describes version 0.02 of Lingua::EN::Namegame,
+    released December 29, 2002.
 
 SYNOPSIS
 
-            use Lingua::EN::NameGame;
+            use Lingua::EN::Namegame;
 
             $verse = name2verse ('Marsha');
 
@@ -57,10 +57,7 @@ To install this module type the following:
 
 DEPENDENCIES
 
-  No other modules are needed to use this module.
-
-  However, to run the optional "name2verse_nonprofane"
-  script that comes with it, Regexp::Common is required.
+  Regexp::Common
 
 COPYRIGHT AND LICENCE
 
