@@ -1,0 +1,6 @@
+Revision history for Perl extension Lingua::EN::NameGame.
+
+0.01  Fri Dec 27 20:39:45 PST 2002
+	- original version; created by h2xs 1.21 with options
+		-XA -n Lingua::EN::NameGame
+
