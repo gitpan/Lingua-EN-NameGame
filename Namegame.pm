@@ -18,7 +18,7 @@ require	Exporter;
 our @ISA		=	qw(Exporter);
 our @EXPORT		=	qw(name2verse);
 our @EXPORT_OK		=	qw( );
-our $VERSION		= 	'0.04';
+our $VERSION		= 	'0.05';
 
 our ($SEP);
 
@@ -313,21 +313,6 @@ B<name2verse.pl>, B<name2verse_nonprofane.pl>
 
 =head1 AUTHOR
 
-=for roff
-.nf
-\fBTim Maher\fP
-\fIConsultix\fP
-yumpy@cpan.org
-http://www.teachmeperl.com
-.fi
-
-=for html
-<B>Tim Maher</B><BR>
-<I>Consultix</I><BR>
-yumpy@cpan.org<BR>
-<A HREF="http://www.teachmeperl.com">http://www.teachmeperl.com</A><BR>
-
-=for text
 	Tim Maher
 	Consultix
 	yumpy@cpan.org
@@ -339,11 +324,7 @@ L<http://www.geocities.com/SunsetStrip/Palladium/1306/shirley.htm>
 
 =head1 LICENSE
 
-=for html Copyright &copy; 2002, Timothy F. Maher.  All rights reserved. 
-
-=for roff Copyright \(co 2002, Timothy F. Maher.  All rights reserved. 
-
-=for text Copyright (c) 2002, Timothy F. Maher.  All rights reserved. 
+Copyright (c) 2002, Timothy F. Maher.  All rights reserved. 
 
 This module is free software;
 you can redistribute it and/or modify it under the same terms as Perl itself.

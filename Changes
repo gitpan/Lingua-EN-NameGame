@@ -20,4 +20,9 @@ Revision history for Perl extension Lingua::EN::Namegame.
 	- fixed typo in comment in test.pl
 	- one last try to get =for html sections processed correctly after upload
 
+0.05  Wed Jan  1 14:56:50 PST 2003
+	- Okay, I gave up on trying to get the "=for html" sections displayed
+	  after upload, and converted them all to straight text. Sigh! 8-{
+
+
 

@@ -1,15 +1,10 @@
-Lingua/EN/Namegame version 0.02
+Lingua/EN/Namegame version 0.05
 ===============================
 
 NAME
 
     Lingua::EN::Namegame - Creates a "Name-Game" verse from a name (or
     word)
-
-VERSION
-
-    This document describes version 0.04 of Lingua::EN::Namegame,
-    released January 01, 2003.
 
 SYNOPSIS
 
